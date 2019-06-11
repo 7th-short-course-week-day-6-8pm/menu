@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:icon="@drawable/ic_search_black_24dp"
+        android:id="@+id/search"
+        android:title="search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item
+        android:id="@+id/favorite"
+        android:title="favorite"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_favorite_black_24dp"/>
+    <item android:id="@+id/download"
+        android:title="download"
+        android:icon="@drawable/ic_cloud_download_black_24dp" />
+
+    <item android:icon="@drawable/ic_menu_black_24dp"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:title="share"
+                android:icon="@drawable/ic_share_black_24dp" />
+            <item android:id="@+id/theme"
+                android:title="theme"/>
+
+            <item android:title="submenu"
+                android:icon="@drawable/ic_share_black_24dp">
+                <menu>
+                    <item android:title="submenu 1"
+                        android:id="@+id/submenu1"
+                        android:icon="@drawable/ic_favorite_black_24dp"/>
+                    <item android:title="submenu 2"
+                        android:id="@+id/submenu2"
+                        android:icon="@drawable/ic_share_black_24dp"/>
+                </menu>
+            </item>
+
+        </menu>
+    </item>
+</menu>

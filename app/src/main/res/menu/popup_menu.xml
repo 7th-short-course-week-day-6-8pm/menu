@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Edit"
+        android:id="@+id/edit"/>
+    <item android:title="Remove"
+        android:id="@+id/remove"/>
+    <item android:title="Share"
+        android:id="@+id/share"/>
+    <item android:title="Pin Post"
+        android:id="@+id/pinPost"/>
+</menu>
